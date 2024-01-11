@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@700&family=Prompt:wght@500&family=Titillium+Web:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+
+body {
+    font-family: 'Onest', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* index */
+
+/* HEADER */
+
+.nav {
+    display: flex;
+    justify-content: right;
+}
+
+span {
+    color: rgb(37 99 235);
+}
+
+/* MAIN INDEX */
+
+main {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Onest', sans-serif;
+}
+
+.contenedorBtn {
+    margin: 20px;
+}
+
+.btn1 {
+    font-family: 'Onest', sans-serif;
+    background-color: black;
+    border: none;
+    padding: 3px 28.8px;
+    border-radius: 50px;
+    color: #fafafa;
+}
+
+.btn1 a {
+    font-family: 'Onest', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.btn1 :hover {
+    background-color: black;
+    color: #f3f3f3;
+}
+
+.btn2 {
+    font-family: 'Onest', sans-serif;
+    background-color: #ffffff;
+    padding: 2px 20px;
+    border-radius: 50px;
+    border: 0.5px gray solid;
+    color: black;
+}
+
+.btn2:hover {
+    border: 0.5px gray solid;
+    background-color: #f3f3f3;
+}
+
+/* CURSOS */
+
+.contenedorCursos {
+    min-height: calc(100vh - 60px);
+}
+
+.cardsCursos {
+    gap: 50px;
+}
+
+.imgCards {
+    width: 200px;
+    max-height: 250px;
+}
+
+.container {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEST */
+
+
+.containerTest {
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.tituloTest {
+    font-family: 'Onest', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.subtituloTest {
+    font-family: 'Onest', sans-serif;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.itemsTest {
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.cardTest {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+
+.subTest {
+    font-family: 'Onest', sans-serif;
+    margin-bottom: 50px;
+}
+
+.cardImg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgTest {
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.btnTest {
+    width: 481px;
+    margin-left: 60px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+
+.btnTest:hover {
+    background-color: rgb(37 99 235);
+    color: white;
+}
