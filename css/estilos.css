@@ -26,7 +26,7 @@ span {
 
 /* MAIN INDEX */
 
-main {
+.mainIndex {
     min-height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -215,6 +215,64 @@ h1 {
     }
     .btnTest {
         width: 200px;
+    }
+}
+
+/* SOMOS */
+
+.mainSomos {
+    display: flex;
+    margin-top: 40px;
+}
+
+.cardSomos {
+    width: 50%;
+    padding: 60px 50px;
+}
+
+.cardsomosImg {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.imgSomos {
+    width: 600px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.tituloSomos {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Onest', sans-serif;
+}
+
+.parrafoSomos {
+    margin: 2px;
+    font-family: 'Onest', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .mainSomos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardSomos {
+        width: 100vh;
+        margin: auto;
+    }
+    .cardsomosImg {
+        width: 100vh;
+    }
+    
+    .imgSomos {
+        width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
